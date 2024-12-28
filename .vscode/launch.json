@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+            {
+                "name": "Build Debug",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "${workspaceFolder}/zig-out/bin/app.exe",
+                "args": [""],
+                "stopAtEntry": false,
+                "cwd": "${workspaceFolder}",
+                "preLaunchTask": "build",
+                "environment": [],
+                "windows": {
+                    "type": "cppvsdbg",
+                    "console": "integratedTerminal",
+                },              
+        }
+    ]
+}

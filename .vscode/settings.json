@@ -1,0 +1,13 @@
+{
+    "debug.allowBreakpointsEverywhere": true,
+    "code-runner.runInTerminal": true,
+
+    // Zig
+    "zig.zls.enabled": "on",
+    "zig.formattingProvider": "zls",
+    "[zig]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ziglang.vscode-zig",
+        "files.eol": "\n"
+    },
+}
