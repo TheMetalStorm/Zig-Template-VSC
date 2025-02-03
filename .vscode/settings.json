@@ -1,7 +1,13 @@
 {
+    //Debugging
     "debug.allowBreakpointsEverywhere": true,
+    
+    // Code Runner
     "code-runner.runInTerminal": true,
-
+    "code-runner.executorMap":{
+        "zig": "zig build run #"
+    } ,
+    
     // Zig
     "zig.zls.enabled": "on",
     "zig.formattingProvider": "zls",
