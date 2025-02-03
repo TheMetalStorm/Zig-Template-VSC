@@ -4,4 +4,4 @@ Simple Template for Zig Projects with Debugging Support for VS Code. Works on Zi
 
 - Includes Run Step in ```build.zig``` (Build and run via ```zig build run``` in Terminal)
 - Includes Run Config via code-runner that runs ```zig build run``` (Ctrl+Alt+N or Run Button)
-- Includes Debug Task using ```cppdbg```(F5)
+- Includes Debug Task using ```cppdbg``` (F5)
